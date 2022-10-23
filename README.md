@@ -66,7 +66,7 @@ MX version
 
 ## BOM
 
-It is available in BOM directory as csv file and [Interactive BOM](/BOM/ibom.html)
+It is available in BOM directory as csv file and [interactive HTML BOM](https://htmlpreview.github.io/?https://github.com/snsten/Klein/blob/main/BOM/ibom.html)
 
 ## PCB
 
