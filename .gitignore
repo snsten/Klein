@@ -1,6 +1,9 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
+# Project Specific Files
+PCB/klein-backups
+
 # Temporary files
 *.000
 *.bak
