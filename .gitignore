@@ -3,6 +3,7 @@
 
 # Project Specific Files
 PCB/klein-backups
+PCB/Gerbers
 
 # Temporary files
 *.000
