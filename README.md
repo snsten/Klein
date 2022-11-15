@@ -12,25 +12,34 @@ Klein keyboard is a 36 keys, columnar staggered, split keyboard named after [Fel
 - Bluetooth compatible with power switch
 - Seeed Studio XIAO / Pro Micro / nice!nano / kb2040 compatible
 - Hotswap MX and Choc switches support
-- Trackpad support with JST cable and direct wiring
-- SMD and through hole diode footprint
+- Trackpad support with FPC cable and direct wiring
+- Reversible SMD and through hole diode footprint
 
 ## Versions
 
-Supports multiple options of micro controller and sensors. Broadly divided in two types:
+Supports multiple options of micro controller and sensors.
+
+| Features Supported                       | Microcontroller | Firmware available                            | Wired | Wireless |
+| ---------------------------------------- | --------------- | --------------------------------------------- | ----- | -------- |
+| Encoder or OLED                          | XIAO-BLE        | [Yes](https://github.com/snsten/Klein-zmk)    |       | Yes      |
+| Encoder, OLED, TouchPad, Buzzer, Haptics | Pro Micro       | [Yes](https://github.com/snsten/qmk_firmware) | Yes   |          |
+| Encoder, OLED, TouchPad, Buzzer, Haptics | KB2040          | No (Planned)                                  | Yes   |          |
+| Encoder or OLED                          | nice!nano       | No (Planned)                                  |       | Yes      |
+
+Broadly divided in two types:
 
 ### Wireless
 
 - Can be made with Seeed Studio XIAO-BLE
-- Supports either rotary encoder or OLED/Touchpad
+- Supports either rotary encoder or OLED
 - Battery connectors JST and THT
+
+Wireless touchpad is currently not supported in ZMK.
 
 ### Wired
 
-- Can use Seeed Studio XIAO-RP2040
-  - Supports either rotary encoder or OLED/Touchpad
-- With any pro micro based boards
-  - Can support encoders, OLED/Touchpad, Buzzer and Haptics
+- With any Pro Micro based boards
+  - Can support encoders, OLED, Touchpad, Buzzer and Haptics
 
 ---
 
@@ -59,18 +68,12 @@ MX version
 │   └── images
 ├── Logo
 ├── PCB
-│   ├── Gerbers
-│   │   └── ProtoGerbers.zip       <- PCB Files
 └── README.md
 ```
 
 ## BOM
 
 It is available in BOM directory as csv file and [interactive HTML BOM](https://htmlpreview.github.io/?https://github.com/snsten/Klein/blob/main/BOM/ibom.html)
-
-## PCB
-
-The gerbers file are in the PCB/Gerbers Directory
 
 ## Todo
 
@@ -81,6 +84,7 @@ The gerbers file are in the PCB/Gerbers Directory
 ## Firmware
 
 - [ZMK shield](https://github.com/snsten/Klein-zmk) for Klein with rotary encoder support. Keymap is just for test modify accordingly.
+- [QMK Firmware](https://github.com/snsten/qmk_firmware) for Pro Micro with touchpad support. Keymap is just for test modify accordingly.
 
 ## Refrences
 
