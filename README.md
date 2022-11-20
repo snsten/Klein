@@ -63,7 +63,9 @@ MX version
 ├── BOM
 │   ├── BOM-3235-SEEED.csv         <- BOM
 │   └── ibom.html
-├── Case                           <- Case stl Files
+├── Case
+│   └── *.stl                      <- Case stl Files
+│   └── Prototype                  <- FreeCad project files (Not tested)
 ├── docs
 │   └── images
 ├── Logo
