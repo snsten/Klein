@@ -96,9 +96,11 @@ or
 
 - It is recommended to socket your microcontroller.
 - The microcontroller position for XIAO is marked by the inverted triangle on PCB.
+
   ![XIAO SYMBOL](/docs/images/buildguide/KLEIN.v1.0.F_XIAO_ALIGN.png)
 
 - For battery connection you need to solder wire from +PAD on XIAO-BLE to any of the 2 BAT+ pins marked with red box shown below.
+
   ![XIAO-PCB-Connection](/docs/images/buildguide/XIAO-PCB-Connection.png)
 
 - Do the same for left side keeping the PIN orientation in check.

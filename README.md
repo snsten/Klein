@@ -77,6 +77,10 @@ MX version
 
 It is available in BOM directory as csv file and [interactive HTML BOM](https://htmlpreview.github.io/?https://github.com/snsten/Klein/blob/main/BOM/ibom.html)
 
+## Build Guide
+
+- Wireless build guide is [here](https://github.com/snsten/Klein/blob/main/docs/buildguides/buildguide_wireless.md)
+
 ## Todo
 
 - Add Build Guide
