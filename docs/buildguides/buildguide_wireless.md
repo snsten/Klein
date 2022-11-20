@@ -85,12 +85,18 @@ Or you can heat the socket, pad directly and solder.
 
 ### Battery
 
-- You can connect battery directly to the +/- terminal on XIAO-BLE +/- pad, this method will bypass the switch.
+The battery can be any 3.7V lipo like [these](https://www.lipobattery.us/tag/thickness-3mm/) keeping dimension and capacity in mind.
+
+- Don't get anything with depth 4mm or above as they will be hard to fit.
+- Tested with battery dimensions 26x10x3.5 mm and 200mAh capacity which fit below pcb or microcontroller.
+
+You can connect battery directly to the +/- terminal on XIAO-BLE +/- pad, this method will bypass the switch.
 
 or
 
-- Solder the female JST plug at position B1 see in [ibom](https://htmlpreview.github.io/?https://github.com/snsten/Klein/blob/main/BOM/ibom.html) on the PCB.
-- Attach the Battery using JST plug.
+Solder the female JST plug at position B1 see in [ibom](https://htmlpreview.github.io/?https://github.com/snsten/Klein/blob/main/BOM/ibom.html) on the PCB.
+
+- Attach the Battery using JST connector.
 
 ### Microcontroller
 
