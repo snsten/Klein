@@ -19,12 +19,12 @@ Klein keyboard is a 36 keys, columnar staggered, split keyboard named after [Fel
 
 Supports multiple options of micro controller and sensors.
 
-| Features Supported                       | Microcontroller | Firmware available                            | Wired | Wireless |
-| ---------------------------------------- | --------------- | --------------------------------------------- | ----- | -------- |
-| Encoder or OLED                          | XIAO-BLE        | [Yes](https://github.com/snsten/Klein-zmk)    |       | Yes      |
-| Encoder, OLED, TouchPad, Buzzer, Haptics | Pro Micro       | [Yes](https://github.com/snsten/qmk_firmware) | Yes   |          |
-| Encoder, OLED, TouchPad, Buzzer, Haptics | KB2040          | No (Planned)                                  | Yes   |          |
-| Encoder or OLED                          | nice!nano       | No (Planned)                                  |       | Yes      |
+| Features Supported                       | Microcontroller | Firmware available                         | Wired | Wireless |
+| ---------------------------------------- | --------------- | ------------------------------------------ | ----- | -------- |
+| Encoder or OLED                          | XIAO-BLE        | [Yes](https://github.com/snsten/Klein-zmk) |       | Yes      |
+| Encoder, OLED, TouchPad, Buzzer, Haptics | Pro Micro       | [Yes](https://github.com/snsten/Klein-qmk) | Yes   |          |
+| Encoder, OLED, TouchPad, Buzzer, Haptics | KB2040          | [Yes](https://github.com/snsten/Klein-qmk) | Yes   |          |
+| Encoder or OLED                          | nice!nano       | No (Planned)                               |       | Yes      |
 
 Broadly divided in two types:
 
