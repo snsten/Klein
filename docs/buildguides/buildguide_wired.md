@@ -229,7 +229,7 @@ Case files are available [here](https://github.com/snsten/Klein/tree/main/Case).
 
 ### Firmware
 
-The firmware is available [here](https://github.com/snsten/Klein-zmk).
+The firmware is available [here](https://github.com/snsten/Klein-qmk).
 
 ---
 
