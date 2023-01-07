@@ -79,7 +79,8 @@ It is available in BOM directory as csv file and [interactive HTML BOM](https://
 
 ## Build Guide
 
-- Wireless build guide is [here](https://github.com/snsten/Klein/blob/main/docs/buildguides/buildguide_wireless.md)
+- Wired build [guide](https://github.com/snsten/Klein/blob/main/docs/buildguides/buildguide_wired.md)
+- Wireless build [guide](https://github.com/snsten/Klein/blob/main/docs/buildguides/buildguide_wireless.md)
 
 ## Todo
 
