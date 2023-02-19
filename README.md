@@ -10,10 +10,12 @@ Klein keyboard is a 36 keys, columnar staggered, split keyboard named after [Fel
 
 - Column Staggered
 - Bluetooth compatible with power switch
-- Seeed Studio XIAO / Pro Micro / nice!nano / kb2040 compatible
+- Seeed Studio XIAO-BLE / Pro Micro / nice!nano\* / KB2040 / RP2040(boards with Pro Micro pinout) compatible
 - Hotswap MX and Choc switches support
 - Trackpad support with FPC cable and direct wiring
 - Reversible SMD and through hole diode footprint
+
+> \* nice!nano firmware not available at the moment.
 
 ## Versions
 
@@ -23,8 +25,8 @@ Supports multiple options of micro controller and sensors.
 | ---------------------------------------- | --------------- | ------------------------------------------ | ----- | -------- |
 | Encoder or OLED                          | XIAO-BLE        | [Yes](https://github.com/snsten/Klein-zmk) |       | Yes      |
 | Encoder, OLED, TouchPad, Buzzer, Haptics | Pro Micro       | [Yes](https://github.com/snsten/Klein-qmk) | Yes   |          |
-| Encoder, OLED, TouchPad, Buzzer, Haptics | KB2040          | [Yes](https://github.com/snsten/Klein-qmk) | Yes   |          |
-| Encoder or OLED                          | nice!nano       | No (Planned)                               |       | Yes      |
+| Encoder, OLED, TouchPad, Buzzer, Haptics | KB2040/RP2040   | [Yes](https://github.com/snsten/Klein-qmk) | Yes   |          |
+| Encoder and OLED                         | nice!nano       | No (Planned)                               |       | Yes      |
 
 Broadly divided in two types:
 
@@ -66,6 +68,7 @@ MX version
 ├── Case
 │   └── *.stl                      <- Case stl Files
 │   └── Prototype                  <- FreeCad project files (Not tested)
+│       └── SwitchPlateFR4         <- SwitchPlate PCB files (Not tested)
 ├── docs
 │   └── images
 ├── Logo
@@ -90,8 +93,8 @@ It is available in BOM directory as csv file and [interactive HTML BOM](https://
 
 ## Firmware
 
-- [ZMK shield](https://github.com/snsten/Klein-zmk) for Klein with rotary encoder support. Keymap is just for test modify accordingly.
-- [QMK Firmware](https://github.com/snsten/qmk_firmware) for Pro Micro with touchpad support. Keymap is just for test modify accordingly.
+- [ZMK shield](https://github.com/snsten/Klein-zmk) for Klein with rotary encoder support.
+- [QMK Firmware](https://github.com/snsten/Klein-qmk) for Pro Micro with touchpad support.
 
 ## Refrences
 
